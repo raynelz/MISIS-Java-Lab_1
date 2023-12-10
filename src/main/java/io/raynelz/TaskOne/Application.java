@@ -1,5 +1,6 @@
-package org.example;
+package io.raynelz.TaskOne;
 
+//MARK: Singleton
 class Connection {
     // Создаём статическое поле - instance (экземпляр)
     private static Connection instance;
@@ -14,8 +15,9 @@ class Connection {
         instance = new Connection();
         return instance;
     }
- }
- class SingletonService {
+}
+
+class SingletonService {
     /*
     exec - функция, которая создаёт новые экземляры,
     для проверки работы паттерна одиночки и выводит адрес экземпляра в консоль
@@ -27,7 +29,7 @@ class Connection {
         System.out.println(connection1.toString());
         System.out.println(connection2.toString());
     }
- }
+}
 
 public class Application {
     public static void main(String[] args) {
