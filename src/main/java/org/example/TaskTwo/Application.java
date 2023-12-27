@@ -1,4 +1,4 @@
-package io.raynelz.TaskTwo;
+package org.example.TaskTwo;
 
 interface Button {
     void render();
@@ -16,7 +16,7 @@ class WebButton implements Button {
 
 class MobButton implements Button {
     public void render() {
-        System.out.println("render MobButton");
+        System.out.println("render MobButton!");
     }
 }
 
@@ -51,6 +51,8 @@ class Configuration {
     public int getPlatform() {
         return platform;
     }
+
+
 
     public Configuration setPlatform(int platform) {
         this.platform = platform;

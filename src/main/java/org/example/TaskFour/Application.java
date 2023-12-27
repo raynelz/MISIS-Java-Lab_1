@@ -1,4 +1,4 @@
-package io.raynelz.TaskFour;
+package org.example.TaskFour;
 
 enum CarType {
     City_Car,
@@ -59,7 +59,6 @@ class GPSNavigator {
     public String getRoute() {
         return route;
     }
-
 }
 
 enum Transmission {
